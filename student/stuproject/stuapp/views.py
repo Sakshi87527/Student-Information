@@ -14,7 +14,7 @@ class createview(CreateView):
 
 class show(ListView):
     model = student
-    template_name = "show.html"
+    template_name = "index.html"
     context_object_name = "stu"
 
 class update(UpdateView):
